@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    cursor: none; /* Hide cursor during gameplay */
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.paused-cursor {
+    cursor: default; /* Show cursor when paused or game over */
+}
